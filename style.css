@@ -161,13 +161,15 @@ main {
 .sponsor-company {
   display: flex;
   justify-content: space-evenly;
+  text-align: center;
 }
 .sponsor-company img {
-  width: 80px;
+  width: 100px;
+  padding: 20px;
 }
 /* Footer section style */
 .footer {
-margin: 70px 240px;
+  margin: 70px 240px;
   border-radius: 8px;
   background: #fff4e7;
   color: #424242;
@@ -175,8 +177,8 @@ margin: 70px 240px;
   font-size: 1.25rem;
   font-weight: 400;
 }
-.footer-descriptin{
-    padding:  40px 0; 
+.footer-descriptin {
+  padding: 40px 0;
 }
 /* Responsive media queries */
 /* Mobile devicss */
@@ -185,7 +187,8 @@ margin: 70px 240px;
     padding: 20px;
   }
   nav,
-  .card-container {
+  .card-container,
+  .sponsor-company {
     flex-direction: column;
   }
   .features-section {
@@ -195,14 +198,15 @@ margin: 70px 240px;
     grid-template-columns: 1fr;
     margin-bottom: 1rem;
   }
-  main {
+  main,.footer {
     margin: 10px;
   }
 }
 /* Tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
   nav,
-  .card-container {
+  .card-container,
+  .sponsor-company {
     flex-direction: column;
   }
   .features-section {
@@ -214,7 +218,7 @@ margin: 70px 240px;
   header {
     padding: 50px;
   }
-  main {
+  main,.footer {
     margin: 70px;
   }
 }
