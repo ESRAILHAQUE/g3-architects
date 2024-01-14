@@ -141,17 +141,54 @@ main {
   font-weight: 600;
 }
 
+/* Sponsor section style */
+.sponsor-section {
+  margin-top: 80px;
+}
+.sponsor-banner {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.sponsor-title {
+  color: #131313;
+  font-size: 2.8rem;
+  font-weight: 700;
+}
+.sponsor-description {
+  color: #727272;
+  font-weight: 400;
+}
+.sponsor-company {
+  display: flex;
+  justify-content: space-evenly;
+}
+.sponsor-company img {
+  width: 80px;
+}
+/* Footer section style */
+.footer {
+margin: 70px 240px;
+  border-radius: 8px;
+  background: #fff4e7;
+  color: #424242;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.footer-descriptin{
+    padding:  40px 0; 
+}
 /* Responsive media queries */
 /* Mobile devicss */
 @media screen and (max-width: 576px) {
   header {
     padding: 20px;
   }
-  nav,.card-container
-   {
+  nav,
+  .card-container {
     flex-direction: column;
   }
-  .features-section{
+  .features-section {
     flex-direction: column-reverse;
   }
   .features-img {
@@ -164,7 +201,8 @@ main {
 }
 /* Tablet or medium devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
-  nav,.card-container{
+  nav,
+  .card-container {
     flex-direction: column;
   }
   .features-section {
