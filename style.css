@@ -128,7 +128,7 @@ main {
     flex-direction: column-reverse;
   }
   .features-img {
-    grid-template-columns: 2fr;
+    grid-template-columns: repeat(2,2fr);
 
   }
   header {
